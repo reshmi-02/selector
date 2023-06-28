@@ -1,0 +1,45 @@
+/*UNIVERSAL SELECTOR*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/*SIMPLE SELECTOR*/
+#di1{
+	color:red;
+	font-size:13px;
+	background-color:black;
+	}
+.p{
+	color:white;
+	background-color:yellow;
+	font-size:16px;
+	}
+#re{
+	color:green;
+}
+/*GROUP SELECTOR*/
+#di2{
+	color:blue;
+	margin-top:20px;
+}
+/*COMBINATOR selector*/
+#di3 h3{
+	color:purple;
+}
+#di3>p{
+	color:orange;
+}
+div+h3{
+	background-color:yellow;
+}
+div~p{
+	background-color:orange;
+}
+#di3 div h3{
+	background-color:blue;
+}
+#di3>div>p{
+	background-color:pink;
+}
+	

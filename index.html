@@ -1,0 +1,44 @@
+<!DocType HTML>
+<html>
+	<head>
+		<title>SELECTOR</title>
+		<meta charser="UTF-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<meta http-equiv="refersh" content="3 url=file:///C:/fabevy/practice/selector/index.html">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section>
+			<!--simple selector-->
+			<div id="di1">
+				<h1 id="re">1.Simple Selector<h1>
+				<p class="p">If we call element name it select all the elements(It has the third priority) </p>
+				<p class="p">If we call id name it select only the id name (It has the first priority)</p>
+				<p>If we call class name it select only the class name (It has the second priority)</p>
+			</div>
+			<!--group selector-->
+			<div id="di2">
+				<h1>2.Group Selector<h1>
+				<p>We can apply the same style for all the element in group selector </p>
+			</div>
+			<!--combinator selector-->
+			<div id="di3">
+				<h1>3.Combinator Selector</h1>
+				<h3>i)Descendant Selector</h3>
+				<p>The descendant selector matches all elements that are descendants of a specified element.</p>
+				<p>descendant selector (space)</p>
+				<div>
+					<h3>ii)Child Selector</h3>
+					<p>The child selector selects all elements that are the children of a specified element.</p>
+					<p>child selector (>)</p>
+				</div>
+			</div>
+			<h3>iii)Adjacent Sibiling</h3>
+			<p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+			<p>adjacent sibling selector (+)</p>
+			<h3>iv)General sisbiling</h3>
+			<p>The general sibling selector selects all elements that are next siblings of a specified element.</p>
+			<p>general sibling selector (~)</p>
+		</section>
+	</body>
+</html>
